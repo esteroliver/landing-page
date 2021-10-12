@@ -20,8 +20,6 @@ header{
     padding: 200px;
     background-image: url(header.PNG);
     background-size: cover;
-    
-    
 }
 #titulo{
     font-family: var(--fonte-destaque);
@@ -39,20 +37,31 @@ header{
     margin: 0px;
 }
 #sobre{
-    
+    text-align: center;
+    background-color: white;
+    color: #19343d;
+    padding: 40px;
 }
 #colunas ul{
-    background-color: white;
+    background-color: #19343d;
     margin: 0px;
     list-style-type: none;
     display: flex;
     justify-content: space-around;
     padding-top: 30px;
     padding-top: 30px;
+    padding-right: 50px;
 }
 #colunas ul li{
-    background-color:#19343d;
-    width: 31%;
-    color: var(--cor0);
+    background-color:white;
+    width: 20%;
+    color: #19343d;
     padding: 10px;
+    text-align: center;
+}
+#colunas ul li h1{
+    font-family: var(--fonte-destaque);
+}
+#colunas ul li p{
+    font-family: var(--fonte-padrao);
 }
