@@ -71,6 +71,32 @@ header{
 #colunas ul li p{
     font-family: var(--fonte-padrao);
 }
+#contato{
+    background-color: white;
+    color: #19343d;
+    padding: 40px;
+}
+#contato h1{
+    font-family: var(--fonte-destaque);
+    text-align: center;
+}
+#contato ul{
+    list-style-type: none;
+    font-family: var(--fonte-padrao);
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+}
+#contato ul li{
+    background-color: #19343d;
+    color: white;
+    margin: 20px;
+    padding: 30px;
+}
+#contato ul li a{
+    text-decoration: none;
+    color: white;
+}
 #rodape{
     text-align: center;
     background-color: #19343d;
