@@ -42,6 +42,12 @@ header{
     color: #19343d;
     padding: 40px;
 }
+#sobre h1{
+    font-family: var(--fonte-destaque);
+}
+#sobre p{
+    font-family: var(--fonte-padrao);
+}
 #colunas ul{
     background-color: #19343d;
     margin: 0px;
@@ -49,7 +55,7 @@ header{
     display: flex;
     justify-content: space-around;
     padding-top: 30px;
-    padding-top: 30px;
+    padding-bottom: 30px;
     padding-right: 50px;
 }
 #colunas ul li{
@@ -64,4 +70,14 @@ header{
 }
 #colunas ul li p{
     font-family: var(--fonte-padrao);
+}
+#rodape{
+    text-align: center;
+    background-color: #19343d;
+    color: white;
+    font-family: var(--fonte-padrao);
+    padding: 5px;
+}
+#rodape a{
+    color: white;
 }
