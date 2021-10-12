@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&display=swap');
+:root{
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-padrao:  'Josefin Sans', sans-serif;
+    --cor0: #c1eefd;
+    --cor1: #56ccf3;
+    --cor2: #2C9ABF;
+    --cor3: #3D6573;
+    --cor4: #1A5D73;
+
+}
+body{
+    background-color: var(--cor0);
+    margin: 0px;
+    padding: 0px;
+
+}
+header{
+    padding: 200px;
+    background-image: url(header.PNG);
+    background-size: cover;
+    
+    
+}
+#titulo{
+    font-family: var(--fonte-destaque);
+    color:white;
+    text-align: center;
+    margin: 0px;
+    font-size: 3em;
+    padding: 12px;
+}
+#subtitulo{
+    font-family: var(--fonte-padrao);
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin: 0px;
+}
+#sobre{
+    
+}
+#colunas ul{
+    background-color: white;
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-top: 30px;
+}
+#colunas ul li{
+    background-color:#19343d;
+    width: 31%;
+    color: var(--cor0);
+    padding: 10px;
+}
