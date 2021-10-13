@@ -45,7 +45,15 @@ header{
 #sobre h1{
     font-family: var(--fonte-destaque);
 }
-#sobre p{
+#sobre ul{
+    display: flex;
+}
+#sobre ul li{
+    list-style-type: none;
+    text-align: justify;
+    padding: 20px;
+}
+#sobre ul li p{
     font-family: var(--fonte-padrao);
 }
 #colunas ul{
