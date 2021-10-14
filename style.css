@@ -62,19 +62,16 @@ header{
     background-color: #19343d;
     list-style-type: none;
     justify-content: space-around;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 0px;
-    display: flex;
     margin: 0px;
+    padding: 40px;
 }
 #colunas ul li{
     background-color:white;
     color: #19343d;
     text-align: center;
-    padding: 1.5%;
-    margin: auto;
-    display: flex;
+    margin: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 #colunas ul li h1{
     font-family: var(--fonte-destaque);
@@ -92,14 +89,14 @@ header{
     list-style-type: none;
     font-family: var(--fonte-padrao);
     font-size: 20px;
-    display: flex;
+    padding: 30px;
     text-align: center;
 }
 #contato ul li{
     background-color: #19343d;
     color: white;
     padding: 40px;
-    padding-left: 10px;
+    margin: 30px;
 }
 #contato ul li a{
     text-decoration: none;
