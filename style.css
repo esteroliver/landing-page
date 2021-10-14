@@ -60,26 +60,19 @@ header{
 }
 #colunas ul{
     background-color: #19343d;
-    margin: 0px;
     list-style-type: none;
-    display: flex;
     justify-content: space-around;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-right: 50px;
+    padding: 100px;
 }
 #colunas ul li{
     background-color:white;
-    width: 20%;
     color: #19343d;
-    padding: 10px;
     text-align: center;
+    margin: auto;
+    display: flex;
 }
 #colunas ul li h1{
     font-family: var(--fonte-destaque);
-}
-#colunas ul li p{
-    font-family: var(--fonte-padrao);
 }
 #contato{
     background-color: white;
